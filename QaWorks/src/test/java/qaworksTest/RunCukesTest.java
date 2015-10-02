@@ -1,4 +1,4 @@
-package googleTest;
+package qaworksTest;
 
 
 import cucumber.api.CucumberOptions;

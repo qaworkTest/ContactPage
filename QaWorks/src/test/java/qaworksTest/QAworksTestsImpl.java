@@ -1,8 +1,10 @@
-package googleTest;
+package qaworksTest;
 
 import org.testng.Assert;
 import org.testng.annotations.Guice;
 import org.testng.annotations.Test;
+
+import qaworksPages.ContactPage;
 
 import com.google.inject.Inject;
 
@@ -15,7 +17,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import framework.EventBrowser;
 import framework.SeleniumCommands;
-import googlePages.ContactPage;
 
 @Guice
 public class QAworksTestsImpl {
