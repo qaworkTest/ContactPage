@@ -1,0 +1,1 @@
+call mvn test -Dbrowser=firefox -Dcucumber.options="-t @ValidData -f html:target/surefire-reports/cucumber/firefox

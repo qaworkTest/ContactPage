@@ -1,0 +1,1 @@
+call mvn test -Dbrowser=chrome -Dcucumber.options="-t @InvalidData -f html:target/surefire-reports/cucumber/chrome
